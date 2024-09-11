@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Impuestos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculadora de Impuestos Anuales</h1>
+  
+  <form id="tax-form">
+    <label for="nombre">Nombre del Cliente:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    
+    <label for="montoBruto">Monto Bruto Anual:</label>
+    <input type="number" id="montoBruto" name="montoBruto" required>
+    
+    <label for="deducciones">Deducciones:</label>
+    <input type="number" id="deducciones" name="deducciones" required>
+
+    <button type="submit">Calcular Impuesto</button>
+  </form>
+
+  <!-- Sección donde se mostrará el resultado -->
+  <div id="resultado-container">
+    <h2>Resultado del Cálculo</h2>
+    <p id="resultado">El resultado aparecerá aquí después de enviar el formulario.</p>
+  </div>
+
+  <!-- Cargando main.js como un módulo -->
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
