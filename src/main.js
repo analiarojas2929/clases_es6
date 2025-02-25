@@ -1,4 +1,4 @@
-import Cliente from './cliente.js';  // Importando la clase Cliente
+import Cliente from './cliente.js'; 
 import Impuesto from './impuesto.js'; // Importando la clase Impuesto
 
 // Función para agregar puntos a los números
